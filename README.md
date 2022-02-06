@@ -1,5 +1,5 @@
 ## The execution process can be divided into the following steps:
-
+![Image text](https://github.com/3018diao/Thesis---Big-data-of-CAN-bus/blob/master/images/process.png)
 1. Raw CAN-Trace comes from real cars or car test benches, collected by Datalogger.
 2. Upload each datalogger’s CAN bus data to the Hadoop Distributed File System (HDFS).
 3. Parsing raw CAN bus data from HDFS with Spark based on DBC file.
